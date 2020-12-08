@@ -79,6 +79,19 @@ def ordenar():
                 
 
 lista = ordenar_arbol(lista_nodos(leer_csv()))
+
+# OUTPUT lista
+# Nodo = { versn: fbkxn, id: 1, parent: 0}
+# Nodo = { versn: ez511, id: 2, parent: 1}
+# Nodo = { versn: idc0s, id: 4, parent: 1}
+# Nodo = { versn: 07r7w, id: 3, parent: 2}
+# Nodo = { versn: 7tcvs, id: 5, parent: 4}
+# Nodo = { versn: jg8jm, id: 6, parent: 4}
+# Nodo = { versn: 0cb9t, id: 7, parent: 5}
+# Nodo = { versn: 58k4x, id: 8, parent: 5}
+# Nodo = { versn: djpm4, id: 9, parent: 5}
+# Nodo = { versn: olv9i, id: 10, parent: 6}
+
 lista_new = []
 lista_aux = lista
 
@@ -86,3 +99,14 @@ ordenar()
 
 for x in lista_new:
     print(x)
+
+# OUTPUT lista_new
+# Nodo = { versn: ez511, id: 2, parent: 1}
+# Nodo = { versn: 07r7w, id: 3, parent: 2}
+# Nodo = { versn: idc0s, id: 4, parent: 1}
+# Nodo = { versn: 7tcvs, id: 5, parent: 4}
+# Nodo = { versn: 0cb9t, id: 7, parent: 5}
+# Nodo = { versn: 58k4x, id: 8, parent: 5}
+# Nodo = { versn: djpm4, id: 9, parent: 5}
+# Nodo = { versn: jg8jm, id: 6, parent: 4}
+# Nodo = { versn: olv9i, id: 10, parent: 6}
